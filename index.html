@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4a2e6e92a5.js" crossorigin="anonymous"></script>
+    <title>Encriptador</title>
+</head>
+<body>
+    <div class="main__bckg">
+        <header>
+            <div class="header-main">
+                <img src="./assets/images/Logo.png" alt="Logo Alura" cslass="logo">
+                <div class="toggleBtn">
+                    <label class="switch" onclick="changeLanguage()">
+                        <input type="checkbox" id="language">
+                        <span class="slider round"></span>
+                      </label>
+                      <div class="language-span-main">
+                          <span> ESP</span>
+                          <span> ENG </span>
+                      </div>
+                </div>
+            </div>
+           
+        </header>
+        <main>
+            <section class="mensaje_principal">
+                <textarea class="text-area" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+               
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="mensajeDesencriptado_principal">
+                <textarea class="mensaje" rows="10" readonly></textarea>
+                <div class="noMessageFound">
+                    <p class="firstMessageNotFound">Ningún mensaje fue encontrado</p>
+                    <p class="secondMessageNotFound">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+                <div>
+                    <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <section>
+            <div>
+                <a href="https://www.linkedin.com/in/davidcastroanaya/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/deca-dev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://instagram.com/david_ecas?igshid=ZWQyN2ExYTkwZQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://myportfolio-david.netlify.app/" target="_blank"><i class="fa-solid fa-briefcase"></i></a>
+                
+            </div>
+            <div>
+                <p>&#169 2023 Copyright: Alura + Oracle Next Education</p>
+                <p class="doneBy">Hecho por: David Castro</p>
+            </div>
+        </section>
+    </footer>
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
