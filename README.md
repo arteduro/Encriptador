@@ -1,0 +1,2 @@
+DECODIFICADOR DE TEXTO CON JAVASCRIPT
+Este pequeño proyecto de decodificador de texto muestra cómo se puede implementar un algoritmo básico de decodificación utilizando JavaScript. Puedes personalizarlo y adaptarlo según tus necesidades o incluso extenderlo para incluir otros algoritmos de codificación y decodificación. ¡Diviértete experimentando y desarrollando tus habilidades de programación con JavaScript!
